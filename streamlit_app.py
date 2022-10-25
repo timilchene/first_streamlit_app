@@ -75,9 +75,9 @@ streamlit.stop()
 
 #streamlit.text("The fruit load list contains:")
 #streamlit.text(my_data_row)
-streamlit.text("What fruit would you like to add?")
-add_choice = streamlit.text_input('What fruit would you like to add?','Peach')
-streamlit.write('Thanks for adding', add_choice)
+#streamlit.text("What fruit would you like to add?")
+#add_choice = streamlit.text_input('What fruit would you like to add?','Peach')
+#streamlit.write('Thanks for adding', add_choice)
 
-my_cur.execute("INSERT INTO fruit_load_list values ('from streamlit')");
+#my_cur.execute("INSERT INTO fruit_load_list values ('from streamlit')");
 #fruit_added_response = requests.get("https://fruityvice.com/api/fruit/"+add_choice)
